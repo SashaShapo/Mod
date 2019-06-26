@@ -310,8 +310,12 @@ footer {
             margin: 0;
             padding: 0;
         }
+    .shop-info p{
+        text-align: center;
+        padding: 2px 2px;
+    }
 
-    input {width: 300px;}
+    input {max-width: 300px;}
 
     .wrapper-circle {display: block;}
 
@@ -357,7 +361,7 @@ footer {
     }
     .shop-info p{
         text-align: center;
-        padding: 0;
+        padding: 2px 2px;
     }
 
 }
