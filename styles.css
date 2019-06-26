@@ -158,6 +158,12 @@ footer {
 
     .wrapper-circle {display: inline-block;}
 
+    .text {
+        margin-left: 40px;
+        display: inline-block;
+        text-align: left;
+    }
+
     .circle1,
     .circle2,
     .circle3 {
@@ -189,7 +195,7 @@ footer {
     }
 
     p {
-        float: right;
+
         font-family: PTSans, sans-serif;
         font-size: 20px;
         color: #909090;
