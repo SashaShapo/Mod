@@ -299,7 +299,7 @@ footer {
     }
         .logo {
             margin: 0 0 0 15%;
-            position: relative;
+            position: center;
         }
         .search{
             position: center;
