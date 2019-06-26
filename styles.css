@@ -1,0 +1,242 @@
+body * {box-sizing: border-box}
+body {
+    background-color: #ffffff;
+    margin: 0;
+    font-family: PTSans, sans-serif;
+    color: #909090;
+}
+.main-wrapper {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.banner {position: relative;}
+
+.logo img {position: relative;}
+
+form {display: flex;}
+
+header {
+    background-color: #ffffff;
+    width: 100%;
+    height: 104px;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 60px 36px 60px;
+}
+
+.logo img {margin-bottom: 3px;}
+
+h1, h2, h3, h4, p {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    width: auto;
+}
+
+input {
+    width: 390px;
+    height: 40px;
+    background-color: #f3f3f3;
+    border: 1px solid #e5e5e5;
+    font-size: 16px;
+    font-family: 'PT Sans', sans-serif;
+    color: #c7c5c5;
+    padding-left: 10px;
+}
+
+button {
+    align-self: center;
+    margin-left: 5px;
+    width: 40px;
+    height: 40px;
+    border:none;
+    background: transparent;
+}
+
+.main-content {
+    margin: 0;
+    padding: 0 30px;
+}
+
+.wrapper-circle {
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.circle1,
+.circle2,
+.circle3 {
+    margin: 0 auto;
+    height: 186px;
+    width: 186px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.circle1 {background-color: #5094f2;}
+
+.circle2 {background-color: #d94748;}
+
+.circle3 {background-color: #ebbb11;}
+
+i {
+    font-size: 100px;
+    color: white;
+}
+
+.circle-text {
+    padding-top: 20px;
+    font-family: PTSans, sans-serif;
+    font-size: 24px;
+    color: #5094f2;
+}
+
+p {
+    font-family: PTSans, sans-serif;
+    font-size: 16px;
+    color: #909090;
+}
+
+h2  {
+    padding-top: 80px;
+    font-size: 36px;
+    font-weight:normal;
+    color: #6f7173;
+}
+
+.shop-wrapper {
+     display: flex;
+     width: 100%;
+}
+
+.shop-img {
+    padding: 40px 0 0 25px;
+    width: 50%;
+}
+
+.shop-info {width: 50%;}
+
+.shop-wrapper i {
+    color: #4364a1;
+    font-size: 200px;
+}
+
+h3 {
+    font-size: 30px;
+    color: #6f7173;
+}
+
+.shop-info p {
+    font-size: 16px;
+    line-height: 2.5;
+}
+
+footer {
+    margin-top: 60px;
+    border-top: 1px solid #e5e5e5;
+    padding: 30px 0 40px 0;
+    font-size: 14px;
+    text-align: center;
+}
+
+@media  (max-width: 769px) {
+
+    header {
+        height: 89px;
+        padding: 22px 30px 22px 30px;
+    }
+	input {width: 200px;}
+
+    .main-content {padding: 0;}
+
+    .wrapper-circle {display: inline-block;}
+
+    .circle1,
+    .circle2,
+    .circle3 {
+        height: 136px;
+        width: 136px;
+        border-radius: 50%;
+        text-align: center;
+        padding: 32px 30px 18px 30px;
+        border-bottom: 1px solid #cccccc;
+        float: left;
+        position: relative;
+    }
+
+    .circle-content {
+        width: 100%;
+        height: 200px;
+        position: relative;
+        padding: 32px 30px 18px 30px;
+        border-bottom: 1px solid #cccccc;
+    }
+
+    i {font-size: 80px;}
+
+    .circle-text {
+        font-family: PTSans, sans-serif;
+        font-size: 36px;
+        color: #5094f2;
+        text-align: left;
+    }
+
+    p {
+        float: right;
+        font-family: PTSans, sans-serif;
+        font-size: 20px;
+        color: #909090;
+        text-align: left;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 48px;
+        padding: 60px 0 24px 0;
+    }
+
+    .shop-wrapper {display: block;}
+
+    .shop-wrapper i {font-size: 160px;}
+
+    .shop-img {
+        width: 100%;
+        text-align: center;
+        padding: 40px 0 0 25px;
+    }
+
+    .shop-info {width: 100%;}
+
+    h3 {
+        text-align: left;
+        font-size: 36px;
+        padding: 24px 30px 30px;
+    }
+
+    .shop-info p {
+        padding-left: 30px;
+        font-size: 18px;
+        line-height: 34px;
+    }
+
+    footer {
+        margin: 0;
+        border-top: 1px solid #e5e5e5;
+        padding: 30px 0 40px 0;
+        font-size: 16px;
+        text-align: center;
+        clear: both;
+    }
+
+
+}
+
+
+
