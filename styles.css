@@ -243,7 +243,7 @@ footer {
 }
 @media  (max-width: 625px){
 
-    input {width: 130px;}
+    input {width: 145px;}
 
     .wrapper-circle {display: block;}
 
@@ -298,7 +298,8 @@ footer {
         height: 120px;
     }
         .logo {
-            position: center;
+            margin: 0 0 0 20%;
+            position: relative;
         }
         .search{
             position: center;
@@ -315,7 +316,7 @@ footer {
         padding: 2px 2px;
     }
 
-    input {max-width: 300px;}
+    input {width: 320px;}
 
     .wrapper-circle {display: block;}
 
